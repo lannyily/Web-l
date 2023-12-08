@@ -16,12 +16,6 @@ body {
     background-position: top 20px left, top 200px right;
 }
 
-.barra-1,
-.barra-2 {
-    width: 100%;
-    padding: 15px 10px;
-}
-
 .barra-1 {
     height: 110px;
     background-color: #FFA800;
