@@ -21,7 +21,6 @@ body {
     height: 120px;
     background-color: #FFA800;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
     padding-top: 20px;
     line-height: 120px;
     font-family: "Changa One", sans-serif;
@@ -36,10 +35,11 @@ body {
 h1 {
     font-family: "Changa One", sans-serif;
     font-weight: 1000;
-    font-size: 40px;
+    font-size: 50px;
     font-style: normal;
     margin-top: 0px;
     color: #341100;
+    margin:0 30px;
 }
 
 .quadro1{
