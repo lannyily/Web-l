@@ -6,46 +6,57 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #f4f4f4;
+    overflow-x: hidden;
 }
 
 .bg {
     background-image: url("Maskgroup.png"), url("Maskgroup2.png");
     background-repeat: no-repeat, no-repeat;
-    background-size: 38%, 100%;
-    background-position: top left, top right; /* Ajuste essas posições conforme necessário */
+    background-size: 38%, 110%;
+    background-position: top 20px left, top 200px right;
+}
+
+.barra-1,
+.barra-2 {
+    width: 100%;
+    padding: 15px 10px;
 }
 
 .barra-1 {
-    width: 100%;
     height: 110px;
-    margin: 0px 0 2px;
-    padding: 15px 10px;
-    position: fixed; /* Alterado para fixed */
-    top: 0;
     background-color: #FFA800;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .barra-2 {
-    width: 100%;
     height: 11px;
-    margin: 20px 0 2px;
-    padding: 15px 10px;
-    position: fixed; /* Alterado para fixed */
-    top: 110px; /* Altura da barra-1 */
     background-color: #E9C172;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     font-family: "Changa One", sans-serif;
+    font-weight: 800;
     font-size: 30px;
     font-style: normal;
-    margin-top: 20px;
+    margin-top: 10px;
     color: #341100;
+}
+
+.quadro1{
+        width: 100%;
+        height: 1000px;
+        margin: 20px 0;
+        background-color: rgb(255, 255, 255, 0.8);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 340px;
+}
+
+
+.quadro2 {
+    width: 100%;
+    height: 500px;
+    margin: 20px 0;
+    background-color: rgb(0, 64, 26);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
