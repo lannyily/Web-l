@@ -84,3 +84,28 @@ h1 {
 .barra-pesquisa button:hover {
     background-color: #D5A432;
 }
+
+/* Adicione estas regras ao seu arquivo CSS */
+.barra-pesquisa {
+    display: flex;
+    align-items: center;
+}
+
+.pesquisa-wrapper {
+    position: relative;
+}
+
+.pesquisa-wrapper input[type="text"] {
+    padding: 8px 30px 8px 8px;
+    /* Ajuste o padding conforme necessário */
+}
+
+.pesquisa-wrapper i {
+    position: absolute;
+    right: 10px;
+    /* Ajuste a posição do ícone conforme necessário */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+

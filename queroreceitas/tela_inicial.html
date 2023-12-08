@@ -14,10 +14,16 @@
     <div class="barra-laranja">
         <h1>Quero Receitas</h1>
         <div class="barra-pesquisa">
-            <form action="/resultados" method="get">
-                <input type="text" name="q" placeholder="Pesquisar...">
-                <!-- Adicione um ícone de lupa da Font Awesome ao botão -->
-                <button type="submit"><i class="fas fa-search"></i> Pesquisar</button>
+        
+
+            <form id="pesquisaForm" action="/resultados" method="get">
+            
+                <div class="pesquisa-wrapper">
+                    <input type="text" name="q" placeholder="Pesquisar...">
+                    <!-- Adicione um ícone de lupa da Font Awesome que atua como botão de pesquisa -->
+                    <i class="fas fa-search" onclick="document.getElementById('pesquisaForm').submit()"></i>
+                </div>
+                <!-- Remova o botão "Pesquisar" -->
             </form>
         </div>
     </div>
