@@ -10,7 +10,7 @@ body {
 }
 
 .bg {
-    background-image: url("Maskgroup.png"), url("Maskgroup2.png");
+    background-image: url("imagens/Maskgroup.png"), url("imagens/Maskgroup2.png");
     background-repeat: no-repeat, no-repeat;
     background-size: 38%, 110%;
     background-position: top 20px left, top 200px right;
@@ -108,4 +108,18 @@ h1 {
     transform: translateY(-50%);
 }
 
+.posicionar-imagem {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    margin-right: 20px;
+    transform: translate(-50%, -50%);
+    width: 3.5%;
+}
 
+.posicionar-barra-pesquisa {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
