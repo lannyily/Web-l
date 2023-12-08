@@ -33,10 +33,10 @@ body {
     background-color: #E9C172;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
+/**/
 h1 {
     font-family: "Changa One", sans-serif;
-    font-weight: 800;
+    font-weight: 1000;
     font-size: 30px;
     font-style: normal;
     margin-top: 10px;
@@ -51,7 +51,6 @@ h1 {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         margin-bottom: 340px;
 }
-
 
 .quadro2 {
     width: 100%;
