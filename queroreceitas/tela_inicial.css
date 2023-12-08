@@ -123,3 +123,25 @@ h1 {
     right: 0;
     transform: translate(-50%, -50%);
 }
+
+.posicionar-imagem-logo{
+    position: absolute;
+    top: 9.5%;
+    left: 0;
+    margin-left: 356px;
+    transform: translate(-50%, -50%);
+    width: 2.0%;
+}
+
+@media screen and (max-width: 768px){
+    .produto-container{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+.produto-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
