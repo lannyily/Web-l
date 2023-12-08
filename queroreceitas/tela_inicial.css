@@ -5,62 +5,7 @@ html {
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;html {
-            scroll-behavior: smooth;
-        }
-    
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
-        }
-    
-        .bg {
-            background-image: url("Maskgroup.png"), url("Maskgroup2.png");
-            background-repeat: no-repeat, no-repeat;
-            background-size: 38%, 110%;
-            background-position: top 20px left, top 200px right;
-        }
-    
-        .barra-laranja {
-    
-            height: 120px;
-            background-color: #FFA800;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            padding-top: 20px;
-            line-height: 120px;
-            font-family: "Changa One", sans-serif;
-        }
-    
-        .barra-2 {
-            height: 30px;
-            background-color: #E9C172;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-    
-        h1 {
-            font-family: "Changa One", sans-serif;
-            font-weight: 1000;
-            font-size: 50px;
-            font-style: normal;
-            margin-top: 0px;
-            color: #341100;
-            margin: 0 30px;
-        }
-    
-        .quadro1 {
-            margin-bottom: 1398px;
-        }
-    
-        .quadro2 {
-            margin-bottom: 340px;
-            width: 100%;
-            height: 500px;
-            margin: 20px 0;
-            background-color: rgb(0, 64, 26);
-            box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-        }
+    padding: 0;
     overflow-x: hidden;
 }
 
@@ -72,7 +17,6 @@ body {
 }
 
 .barra-laranja {
-
     height: 120px;
     background-color: #FFA800;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -92,12 +36,12 @@ h1 {
     font-weight: 1000;
     font-size: 50px;
     font-style: normal;
-    margin-top: 0px;
+    margin-top: 0;
     color: #341100;
-    margin:0 30px;
+    margin: 0 30px;
 }
 
-.quadro1{
+.quadro1 {
     margin-bottom: 1398px;
 }
 
@@ -107,4 +51,36 @@ h1 {
     margin: 20px 0;
     background-color: rgb(0, 64, 26);
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+/* Adicione estas regras para a barra de pesquisa */
+.barra-pesquisa {
+    display: flex;
+    align-items: center;
+}
+
+.barra-pesquisa form {
+    display: flex;
+    align-items: center;
+}
+
+.barra-pesquisa input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 100px;
+    margin-right: 5px;
+}
+
+.barra-pesquisa button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #E9C172;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.barra-pesquisa button:hover {
+    background-color: #D5A432;
 }
