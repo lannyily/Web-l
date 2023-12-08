@@ -3,12 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Quero Receitas</title>
     <link rel="stylesheet" href="tela_inicial.css">
 </head>
-<body>
-    <div class="meu-retangulo">
-       <h1> Quero Receitas</h1>
+<body class="bg">
+    <div class="barra-1">
+       <h1>Quero Receitas</h1>
     </div>
+
+    <div class="barra-2">
+
+    </div>
+
+    <div id="section1">
+        <!-- Conteúdo da seção 1 -->
+    </div>
+
+    <div id="section2">
+        <!-- Conteúdo da seção 2 -->
+    </div>
+
+    <!-- Adicione este script para rolar suavemente -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
