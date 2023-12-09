@@ -152,7 +152,7 @@ h1 {
     position: absolute;
     width: 20%;
     top: 50%;
-    left: 2%;
+    left: 6%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -161,7 +161,7 @@ h1 {
     position: absolute;
     width: 20%;
     top: 50%;
-    left: 25%;
+    left: 29%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -170,7 +170,7 @@ h1 {
     position: absolute;
     width: 20%;
     top: 50%;
-    left: 50%;
+    left: 52%;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -182,4 +182,34 @@ h1 {
     left: 75%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.efeito{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.efeito div{
+    position: relative;
+    overflow: hidden;
+}
+
+.efeito figure{
+    margin: 0;
+}
+
+.efeito img {
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.efeito:hover img {
+    transform: scale(1.1);
+}
+
+@media (min-width: 768px){
+    .efeito{
+        max-width: 80%;
+    }
 }
