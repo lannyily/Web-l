@@ -124,7 +124,7 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-.posicionar-imagem-logo{
+.posicionar-imagem-logo {
     position: absolute;
     top: 8.3%;
     left: 0;
@@ -133,16 +133,53 @@ h1 {
     width: 2.0%;
 }
 
-@media screen and (max-width: 768px){
-    .produto-container{
-        width: 100%;
-        flex-direction: column;
-    }
+.posicionar-icon-casa {
+    margin-top: 4px;
+    right: 0;
+    margin-left: 30px;
+    width: 1.7%;
+}
+
+.posicionar-nome-destaques-da-semana {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
-.produto-container{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+.posicionar-imagem-comidas-tipicas {
+    position: absolute;
+    width: 20%;
+    top: 50%;
+    left: 2%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.posicionar-comida-fitness{
+    position: absolute;
+    width: 20%;
+    top: 50%;
+    left: 25%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.posicionar-comida-airfryer{
+    position: absolute;
+    width: 20%;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.posicionar-bolo {
+    position: absolute;
+    width: 20%;
+    top: 50%;
+    left: 75%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
