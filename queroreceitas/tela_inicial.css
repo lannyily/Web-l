@@ -42,7 +42,7 @@ h1 {
 }
 
 .quadro1 {
-    margin-bottom: 1398px;
+    margin-bottom: 1380px;
 }
 
 .quadro2 {
@@ -126,9 +126,9 @@ h1 {
 
 .posicionar-imagem-logo{
     position: absolute;
-    top: 9.5%;
+    top: 8.3%;
     left: 0;
-    margin-left: 356px;
+    margin-left: 355px;
     transform: translate(-50%, -50%);
     width: 2.0%;
 }
