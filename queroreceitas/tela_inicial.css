@@ -213,3 +213,47 @@ h1 {
         max-width: 80%;
     }
 }
+
+.quadro-comida-tipica {
+    position: absolute;
+    width: 200px;
+    height: 90px;
+    background-color: #03BB85;
+    left: 198px;
+    top: 480px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.quadro-comida-fitness {
+    position: absolute;
+    width: 200px;
+    height: 90px;
+    background-color: #03BB85;
+    left: 540px;
+    top: 480px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.quadro-comida-airfryer {
+    position: absolute;
+    width: 200px;
+    height: 90px;
+    background-color: #03BB85;
+    left: 880px;
+    top: 480px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.quadro-comida-bolo {
+    position: absolute;
+    width: 200px;
+    height: 90px;
+    background-color: #03BB85;
+    left: 1220px;
+    top: 480px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
