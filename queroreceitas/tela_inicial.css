@@ -2,6 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -87,15 +89,33 @@ h1 {
 
 h2 {
     position: absolute;
-    top: 220%;
+    top: 20%;
     font-family: "Changa One", sans-serif;
-    font-weight: 1000;
+    font-weight: 10;
     font-size: 50px;
     font-style: normal;
     margin-top: 0;
     color: #ffffff;
     margin: 0 30px;
 }
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+h4 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:  'Carter One', cursive;
+    font-weight: 1000;
+    font-size: 17px; /* ajuste conforme necessário */
+    font-style: normal;
+    color: #ffffff;
+}
+
 
 .quadro1 {
     margin-bottom: 1110px;
