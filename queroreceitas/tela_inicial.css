@@ -98,7 +98,7 @@ h2 {
 }
 
 .quadro1 {
-    margin-bottom: 1170px;
+    margin-bottom: 1110px;
 }
 
 .quadro2 {
@@ -241,18 +241,6 @@ h2 {
 }
 
 
-.posicionar-imagem-melhor-avaliacao {
-    position: absolute;
-    left: 0;
-    margin-left: 355px;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    bottom: -17%; 
-}
-
-
 
 
 
@@ -332,6 +320,37 @@ h2 {
 
 
 /*CODIGOS DA PARTE DE MELHOR AVALIAÇÃO*/
+.posicionar-imagem-melhor-avaliacao {
+    position: absolute;
+    left: 400px;
+    top: 650px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -17%; 
+}
+
+.retangulo-bolo {
+    position: absolute;
+    top: 800px;
+    left: 300px;
+    width: 60%;
+    height: 30%;
+    border: 7px solid #00401A; /* Define a largura e a cor da borda */
+    background: transparent;
+    border-radius: 20px;
+    z-index: 999; /* Valor alto para sobrepor outros elementos */
+}
+
+.bolo-de-chocolate {
+    position: absolute;
+    top: 780px; /* Ajuste a posição vertical para que a imagem fique acima do retângulo */
+    left: 320px; /* Ajuste a posição horizontal para que a imagem fique à direita do retângulo */
+    width: 25%;
+    border-radius: 20px;
+}
+
 
 
 /*CODIGOS DA PARTE FINAL DO SITE*/
