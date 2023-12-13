@@ -261,8 +261,10 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: -17%; /* Mova a imagem 10% para cima a partir da parte inferior da página */
+    bottom: -17%; 
 }
+
+
 
 
 
