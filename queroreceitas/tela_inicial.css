@@ -334,9 +334,9 @@ h2 {
 .retangulo-bolo {
     position: absolute;
     top: 800px;
-    left: 300px;
-    width: 60%;
-    height: 30%;
+    left: 299px;
+    width: 65%;
+    height: 36%;
     border: 7px solid #00401A; /* Define a largura e a cor da borda */
     background: transparent;
     border-radius: 20px;
@@ -345,9 +345,9 @@ h2 {
 
 .bolo-de-chocolate {
     position: absolute;
-    top: 780px; /* Ajuste a posição vertical para que a imagem fique acima do retângulo */
-    left: 320px; /* Ajuste a posição horizontal para que a imagem fique à direita do retângulo */
-    width: 25%;
+    top: 806px; /* Ajuste a posição vertical para que a imagem fique acima do retângulo */
+    left: 300px; /* Ajuste a posição horizontal para que a imagem fique à direita do retângulo */
+    width: 27%;
     border-radius: 20px;
 }
 
@@ -356,7 +356,7 @@ h2 {
 /*CODIGOS DA PARTE FINAL DO SITE*/
 .posicionar-imagem-retangulo1 {
     position: absolute;
-    width: 38%;
+    width: 40%;
     right: 0px;
     filter: brightness(500%);
 }
