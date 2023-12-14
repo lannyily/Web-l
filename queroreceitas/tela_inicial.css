@@ -54,8 +54,8 @@ body {
 .submenu {
     display: none;
     position: absolute;
-    background-color: #fcebca; /* Cor de fundo do submenu */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para o submenu */
+    background-color: #fcebca;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     list-style: none;
     margin-top: 0px; /* Espaço de cima do submenu */
     padding: 5px 0; /* Espaço interno do submenu */
@@ -68,7 +68,7 @@ body {
 }
 
 .submenu li a {
-    color: #01020a; /*define a cor do href(link)*/
+    color: #01020a;
 }
 
 .menu:hover .submenu {
@@ -457,7 +457,7 @@ h4 {
     font-style: normal;
 }
 
-/*CODIGOS DA PARTE FINAL DO SITE*/
+
 .posicionar-imagem-retangulo1 {
     position: absolute;
     top: 217%;
@@ -465,6 +465,38 @@ h4 {
     right: 0px;
     filter: brightness(500%);
 }
+/*Rodapé com informações sobre o site*/
+
+.rede-social {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+
+}
+.info-contato a {
+    color: black;
+    text-decoration: none;
+
+}
+.conteudo-secundario{
+    width: 30px;
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+
+}
+.nome-2{
+
+    margin-left: 10px;
+    margin-right: auto;
+    width: auto;
+    height: 100px;
+}
+
+/*Fim Rodapé*/
 
 .posicionar-imagem-logo-2 {
     position: absolute;
