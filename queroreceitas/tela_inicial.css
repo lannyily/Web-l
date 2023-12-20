@@ -79,10 +79,10 @@ body {
 
 /*Fim barra-2*/
 
-h1 {
+.titulo {
     font-family: "Changa One", sans-serif;
     font-weight: 1000;
-    font-size: 50px;
+    font-size: 28px;
     font-style: normal;
     margin-top: 0;
     color: #341100;
@@ -113,7 +113,7 @@ h4 {
     transform: translate(-50%, -50%);
     font-family:  'Carter One', cursive;
     font-weight: 10000;
-    font-size: 16px; /* ajuste conforme necessário */
+    font-size: 16px;
     font-style: normal;
     color: #ffffff;
 }
@@ -125,13 +125,13 @@ h4 {
 
 .quadro2 {
     width: 100%;
-    height: 800px;
+    height: 400px;
     margin: 0px 0;
     background-color: rgb(0, 64, 26);
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
-/* Adicione estas regras para a barra de pesquisa */
+
 .barra-pesquisa {
     display: flex;
     align-items: center;
@@ -453,23 +453,15 @@ h4 {
     right: 0%;
     transform: translate(-50%, -50%);
     font-weight: 10000;
-    font-size: 16px; /* ajuste conforme necessário */
+    font-size: 16px;
     font-style: normal;
 }
 
 
-.posicionar-imagem-retangulo1 {
-    position: absolute;
-    top: 217%;
-    width: 40%;
-    right: 0px;
-    filter: brightness(500%);
-}
-/*Rodapé com informações sobre o site*/
-
 .rede-social {
     width: 30px;
     height: auto;
+    margin-top: 10px;
     margin-right: 10px;
     margin-left: 20px;
     color: black;
@@ -479,10 +471,14 @@ h4 {
 .info-contato a {
     color: black;
     text-decoration: none;
+    margin-left: 100px;
+    height: 10px;
+
 
 }
 .conteudo-secundario{
     width: 30px;
+    height: 10px;
     margin-left: 10px;
     color: black;
     text-decoration: none;
@@ -496,6 +492,32 @@ h4 {
     height: 100px;
 }
 
+
+.quadro2 {
+    display: flex;
+    justify-content: space-between; /* Distribui os elementos igualmente ao longo do eixo principal */
+    height: auto;
+
+}
+
+.Footer_esquerda,
+.Footer_central,
+.Footer_direita {
+    padding: 1rem;
+    color: #01020a;
+
+    text color-profile #10020a;
+    align-items: center;
+    text-align: center;
+
+
+
+    flex: 1; /* Permite que cada container ocupe o espaço igualmente */
+    /* Adicione outros estilos conforme necessário */
+}
+.info_rodape{
+    margin-top: 160px;
+}
 /*Fim Rodapé*/
 
 .posicionar-imagem-logo-2 {
