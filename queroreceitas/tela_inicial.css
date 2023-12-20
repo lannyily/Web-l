@@ -202,15 +202,6 @@ h4 {
     transform: translate(-50%, -50%);
 }
 
-.posicionar-imagem-logo {
-    position: absolute;
-    top: 8.3%;
-    left: 0;
-    margin-left: 355px;
-    transform: translate(-50%, -50%);
-    width: 2.0%;
-}
-
 .posicionar-icon-casa {
     margin-top: 4px;
     right: 0;
@@ -500,18 +491,17 @@ h4 {
 
 }
 
-.Footer_esquerda,
-.Footer_central,
-.Footer_direita {
+.Footer_central {
+    
+}
+
+.Footer_esquerda, .Footer_central, .Footer_direita {
     padding: 1rem;
     color: #01020a;
 
-    text color-profile #10020a;
+    color-profile: #10020a;
     align-items: center;
     text-align: center;
-
-
-
     flex: 1; /* Permite que cada container ocupe o espaço igualmente */
     /* Adicione outros estilos conforme necessário */
 }
@@ -519,12 +509,3 @@ h4 {
     margin-top: 160px;
 }
 /*Fim Rodapé*/
-
-.posicionar-imagem-logo-2 {
-    position: absolute;
-    top: 222%;
-    left: 0;
-    margin-left: 355px;
-    transform: translate(-50%, -50%);
-    width: 2.0%;
-}
