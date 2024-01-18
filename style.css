@@ -71,12 +71,18 @@ header > .interface{
 }
 
 .barra-1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: #ffa500;
     height: 15vh;
+    z-index: 1000; /* Certifique-se de que a barra-1 está acima de outros elementos */
 }
+
 
 .barra-pesquisa input[type="text"] {
     padding: 8px;
@@ -116,12 +122,17 @@ header > .interface{
 }
 
 /* --- ESTILO DA BARRA 2 - CABEÇALHO --- */
-.barra-2 > .menus{
+.barra-2 {
+    position: fixed;
+    top: 15vh; /* Ajuste conforme necessário para alinhar abaixo da barra-1 */
+    left: 0;
+    width: 100%;
+    background: #E9C172;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #E9C172;
     flex-wrap: wrap;
+    z-index: 999; /* Certifique-se de que a barra-2 está acima de outros elementos, mas abaixo da barra-1 */
 }
 
 .barra-2 a{
@@ -169,7 +180,7 @@ header > .interface{
 
 /* ESTILO DESTAQUES DA SEMANA */
 section.destaques-da-semana{
-    padding: 40px 4%;
+    padding: 180px 4%;
 }
 
 .destaques-da-semana .destaques-box{
@@ -211,10 +222,10 @@ section.destaques-da-semana{
 
 section.melhor-avaliacao {
     padding: 40px 7%;
+    margin-top: -200px;
 }
 
 section.melhor-avaliacao .flex {
-     /* Alinha os itens ao centro na direção transversal (vertical) */
     gap: 10px; /* Adiciona um espaço de 10 pixels entre os itens */
     border-top: 1px solid #ccc; /* Adiciona uma linha fina antes do flex */
     padding-top: 20px; /* Adiciona um espaço acima da linha */
