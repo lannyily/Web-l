@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTS -->
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- FIM BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Quero Receitas</title>
+    <!-- Adicione o link para a biblioteca Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+     
+    <!-- Barra 1 --- LOGO + BARRA DE PESQUISA + PERFIL -->
+    <nav class="barra-1">
+        <!--LOGO-->
+        <div class="logo">
+            <a href="#"> <!--Quando clicar na logo, vai para a tela inicial-->
+                <img src="images/logo.png" alt="Logo do Site"  width="350" height="50">
+            </a>
+        </div><!--fim da logo-->
+             
+        <!--BARRA DE PESQUISA-->
+        <nav class="barra-de-pesquisa-desktop">
+            <div class="barra-pesquisa">
+                <form id="pesquisaForm" action="/resultados" method="get">
+                    <div class="pesquisa-wrapper">
+                        <input type="text" name="q" placeholder="Pesquisar...">
+                        <!-- Adicione um ícone de lupa da Font Awesome que atua como botão de pesquisa -->
+                        <i class="fas fa-search" onclick="document.getElementById('pesquisaForm').submit()"></i>
+                    </div>
+                </form>
+            </div> <!-- fim da barra de pesquisa-->
+        </nav>
+             
+        <!--PERFIL-->
+        <div class="perfil">
+            <a href="#"> <!--Quando clicar no perfil, ele vai para tela perfil-->
+                <a href="#"><button><i class="bi bi-person"></i></i></button></a>
+            </a>
+        </div> <!--fim do perfil-->
+    </nav> <!--fim da barra-1-->
+
+    <!-- Barra 2 --- Menus com as categorias -->
+    <nav class="barra-2">
+        <div class="menus">
+            <!-- Menu 1 -->
+            <div class="menu">
+                <h3>Aves</h3>
+                <ul class="submenu">
+                    <li><a href="#">Frango</a></li>
+                    <li><a href="#">Nugget</a></li>
+                    <li><a href="#">Yakisoba</a></li>
+                    <li><a href="#">Strogonoff</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <h3>Sobremesas</h3>
+                <ul class="submenu">
+                    <li><a href="#">Pudim</a></li>
+                    <li><a href="#">Brigadeiro</a></li>
+                    <li><a href="#">Bolo de Chocolate</a></li>
+                    <li><a href="#">Bolo de Cenoura</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <h3>Carnes</h3>
+                <ul class="submenu">
+                    <li><a href="#">Carne de Panela</a></li>
+                    <li><a href="#">Carne Assada</a></li>
+                    <li><a href="#">Carne Moída</a></li>
+                    <li><a href="#">Carne de Porco</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <h3>Massas</h3>
+                <ul class="submenu">
+                    <li><a href="#">Macarrão</a></li>
+                    <li><a href="#">Lasanha</a></li>
+                    <li><a href="#">Nhoque</a></li>
+                    <li><a href="#">Rondelli</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <h3>Saladas</h3>
+                <ul class="submenu">
+                    <li><a href="#">Salada de Frutas</a></li>
+                    <li><a href="#">Salada de Legumes</a></li>
+                    <li><a href="#">Salada de Maionese</a></li>
+                    <li><a href="#">Salada de Batata</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <h3>Sopas</h3>
+                <ul class="submenu">
+                    <li><a href="#">Sopa de Legumes</a></li>
+                    <li><a href="#">Sopa de Feijão</a></li>
+                    <li><a href="#">Sopa de Cebola</a></li>
+                    <li><a href="#">Sopa de Ervilha</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <h3>Petiscos</h3>
+                <ul class="submenu">
+                    <li><a href="#">Batata Frita</a></li>
+                    <li><a href="#">Frango a Passarinho</a></li>
+                    <li><a href="#">Bolinho de Bacalhau</a></li>
+                    <li><a href="#">Bolinho de Chuva</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <h3>Molhos</h3>
+                <ul class="submenu">
+                    <li><a href="#">Molho Branco</a></li>
+                    <li><a href="#">Molho de Tomate</a></li>
+                    <li><a href="#">Molho de Pimenta</a></li>
+                    <li><a href="#">Molho de Alho</a></li>
+                </ul>
+            </div>
+    
+            <div class="menu">
+                <h3>Peixes</h3>
+                <ul class="submenu">
+                    <li><a href="#">Filé de Peixe</a></li>
+                    <li><a href="#">Peixe ao Molho</a></li>
+                    <li><a href="#">Peixe Assado</a></li>
+                    <li><a href="#">Peixe Cremoso</a></li>
+    
+                </ul>
+            </div>
+            <div class="menu">
+                <h3>Lanches</h3>
+                <ul class="submenu">
+                    <li><a href="#">Coxinha</a></li>
+                    <li><a href="#">Pizza</a></li>
+                    <li><a href="#">Bomba</a></li>
+                    <li><a href="#">Empada</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <h3>Bebidas</h3>
+                <ul class="submenu">
+                    <li><a href="#">Drinks</a></li>
+                    <li><a href="#">Milk-Shake</a></li>
+                    <li><a href="#">Chocolate Quente</a></li>
+                    <li><a href="#">Caipirinha</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <h3>Pães</h3>
+                <ul class="submenu">
+                    <li><a href="#">Caseiro</a></li>
+                    <li><a href="#">Bisnaguinhas</a></li>
+                    <li><a href="#">Brioche</a></li>
+                    <li><a href="#">Pão de Milho</a></li>
+    
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+    
+    <main>
+        <!-- DESTAQUES DA SEMANA -->
+        <section class="destaques-da-semana">
+            <div class="interface">
+                <h2 class="titulo">DESTAQUES DA <span>SEMANA</span></h2>
+                <div class="flex">
+                    <div class="destaques-box">
+                        <h3>COMIDAS TÍPICAS</h3>
+                        <img src="images/images.jpeg" alt="" width="300" height="230">
+                    </div> <!--fim destaques-box-->
+                    <div class="destaques-box">
+                        <h3>PRATOS FITNESS</h3>
+                        <img src="images/4-pratos-fitness-para-incluir-no-dia-a-dia-bh-mulher-1.jpg" alt=""width="300" height="230">
+                    </div> <!--fim destaques-box-->
+                    <div class="destaques-box">
+                        <h3>RECEITAS NA AIRFRYER</h3>
+                        <img src="images/pao-de-queijo.jpg" alt=""width="300" height="230">
+                    </div> <!--fim destaques-box-->
+                    <div class="destaques-box">
+                        <h3>BOLOS CASEIROS</h3>
+                        <img src="images/bolo-de-cenoura-vegano.jpg" alt=""width="300" height="230">
+                    </div> <!--fim destaques-box-->
+                </div><!--flex-->
+            </div> <!--interface-->
+        </section> <!-- fim dos destaques da semana -->
+        
+        <!-- MELHOR AVALIAÇÃO -->
+        <section class="melhor-avaliacao">
+            <h2 class="titulo">MELHOR <span>AVALIAÇÃO</span></h2>
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-meio-site">
+                        <img src="images/bolo2.jpg" alt="bolo" width="400" height="300">
+
+                    </div>
+                    <div class="txt-meio-site">
+                        <h2>BOLO DE CHOCOLATE</h2>
+                        <h4>de @jubolos</h4>
+                        <h3>Bolo fofinho, ótimo para lanches da tarde.</h3>
+                        <div class="flex-2">
+                            <i class="bi bi-heart-fill"></i> 
+                             <h4>12903</h4>
+                        </div>
+                    </div>
+                </div> <!--flex-->
+                <div class="flex">
+                    <div class="img-meio-site">
+                        <img src="images/pizza.jpg" alt="bolo" width="400" height="300">
+
+                    </div>
+                    <div class="txt-meio-site">
+                        <h2>PIZZA DE LIQUIDIFICADOR</h2>
+                        <h4>de @crislyma</h4>
+                        <h3>Uma receita incrível para fazer com os amigos. </h3>
+                        <div class="flex-2">
+                            <i class="bi bi-heart-fill"></i> 
+                             <h4>10703</h4>
+                        </div>
+                    </div>
+                </div> <!--flex-->
+                <div class="flex">
+                    <div class="img-meio-site">
+                        <img src="images/feijoada.jpg" alt="bolo" width="400" height="300">
+
+                    </div>
+                    <div class="txt-meio-site">
+                        <h2>FEIJOADA</h2>
+                        <h4>de @erikvi</h4>
+                        <h3>Um ótimo prato para curti o domingão em família.</h3>
+                        <div class="flex-2">
+                            <i class="bi bi-heart-fill"></i> 
+                            <h4>10193</h4>
+                        </div>
+                    </div>
+                </div> <!--flex-->
+            </div> <!--interface-->
+        </section> <!-- fim melhor avaliação -->
+    </main>
+    
+    <!-- RODAPÉ -->
+    <footer>
+        <div class="interface">
+           <div class="line-footer">
+              <div class="flex">
+                <div class="logo-footer">
+                    <img src="images/logo2.png" alt="logo" width="350" height="50">
+                </div><!--logo-footer-->
+                <div class="redes-sociais">
+                    <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                    <a href="#"><button><i class="bi bi-facebook"></i></button></a>
+                    <a href="#"><button><i class="bi bi-whatsapp"></i></button></a>
+                    <a href="#"><button><i class="bi bi-twitter"></i></button></a>
+                </div><!--redes-socias-->
+                </div> <!--flex-->
+            </div> <!--line-footer-->
+           <div class="line-footer borda">
+             <p>© 2024 Quero Receitas Consumer LLC. All Rights Reserved.</p>
+           </div> <!--line-footer-->
+        </div> <!--interface-->
+    </footer>
+
+</body>
+</html>
