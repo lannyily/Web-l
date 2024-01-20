@@ -188,9 +188,75 @@ header > .interface{
 
 }
 
-/* ESTILO DO NOVO CODIGO AQUI \/  */
+/* ESTILO DESTAQUES DA SEMANA */
+section.destaques-da-semana{
+    padding: 180px 4%;
+}
 
+.destaques-da-semana .destaques-box{
+    padding: 40px;
+}
 
+.destaques-da-semana .interface .flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.destaques-da-semana .interface .destaques-box {
+    position: relative;
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.destaques-da-semana .interface .destaques-box h3 {
+    position: absolute;
+    top: 70.3%;
+    left: 13.3%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7); /* Adiciona um fundo semi-transparente para tornar o texto mais legível */
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.destaques-da-semana .interface .destaques-box:hover img {
+    transform: scale(1.05); /* Aplica um efeito de zoom na imagem ao passar o mouse sobre a .destaques-box */
+    transition: transform 0.2s ease;
+}
+/* --- ESTILO MELHOR AVALIAÇÃO --- */
+
+section.melhor-avaliacao {
+    padding: 40px 7%;
+    margin-top: -200px;
+}
+
+section.melhor-avaliacao .flex {
+    gap: 10px; /* Adiciona um espaço de 10 pixels entre os itens */
+    border-top: 1px solid #ccc; /* Adiciona uma linha fina antes do flex */
+    padding-top: 20px; /* Adiciona um espaço acima da linha */
+}
+
+section.melhor-avaliacao .flex > .txt-meio-site {
+    margin: 10px; /* Adiciona um espaçamento de 10 pixels em todos os lados para cada item dentro de .flex */
+    margin-top: 20px;
+}
+
+.melhor-avaliacao .img-meio-site:hover img {
+    transform: scale(1.05); /* Aplica um efeito de zoom na imagem ao passar o mouse sobre a .destaques-box */
+    transition: transform 0.3s ease;
+}
+
+.melhor-avaliacao .flex-2{
+    margin-top: 20px;
+    margin-left: 400px;
+    gap: 3px;
+    font-size: 17px;
+}
 
 /* --- ESTILO DO RODAPÉ --- */
 footer{
