@@ -33,10 +33,6 @@ h2.titulo span{
     display: flex;
 }
 
-.flex-2{
-    display: flex;
-}
-
 /* --- ESTILO DA INTERFACE --- */
 header{
     padding: 40px 1%;
@@ -228,34 +224,53 @@ section.destaques-da-semana{
     transform: scale(1.05); /* Aplica um efeito de zoom na imagem ao passar o mouse sobre a .destaques-box */
     transition: transform 0.2s ease;
 }
+
 /* --- ESTILO MELHOR AVALIAÇÃO --- */
 
 section.melhor-avaliacao {
     padding: 40px 7%;
     margin-top: -200px;
+    justify-content: space-between;
 }
 
-section.melhor-avaliacao .flex {
-    gap: 10px; /* Adiciona um espaço de 10 pixels entre os itens */
-    border-top: 1px solid #ccc; /* Adiciona uma linha fina antes do flex */
-    padding-top: 20px; /* Adiciona um espaço acima da linha */
+section.melhor-avaliacao .card {
+    text-align: center; 
+    padding: 20px; 
+    background-color: #fefefe; 
+    border-radius: 20px; 
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 5px 5px 10px #d5d5d5;
 }
 
-section.melhor-avaliacao .flex > .txt-meio-site {
-    margin: 10px; /* Adiciona um espaçamento de 10 pixels em todos os lados para cada item dentro de .flex */
-    margin-top: 20px;
-}
-
-.melhor-avaliacao .img-meio-site:hover img {
-    transform: scale(1.05); /* Aplica um efeito de zoom na imagem ao passar o mouse sobre a .destaques-box */
-    transition: transform 0.3s ease;
-}
-
-.melhor-avaliacao .flex-2{
-    margin-top: 20px;
-    margin-left: 400px;
-    gap: 3px;
+.melhor-avaliacao .flex-2 {
+    display: flex;
+    gap: 5px; 
     font-size: 17px;
+    align-items: center;
+    margin-left: 40%;
+}
+
+.flex-2 i {
+    color: #ff0303;
+}
+
+.img-meio-site img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #d5d5d5;
+}
+
+.melhor-avaliacao .icon-perfil img {
+    margin-top: -100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #fff;
+}
+
+.texto-meio-site h3{
+    font-size: 15px;
+    color: #747d77;
 }
 
 /* --- ESTILO DO RODAPÉ --- */
