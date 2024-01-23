@@ -267,3 +267,24 @@ footer .line-footer{
         display: none;
     }
 }
+
+
+.container {
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 50px;
+}
+
+.recipe {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.recipe img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
