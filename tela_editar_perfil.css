@@ -1,0 +1,110 @@
+.tela-editar-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.foto-perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #00401A;
+    margin-bottom: 20px;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0;
+}
+
+.nome-perfil{
+    font-size: 40px;
+    color: #00401A;
+    margin-bottom: 20px;
+}
+
+.botao-salvar{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #00401A;
+    color: #f8f8ff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.descricao-perfil{
+    font-size: 20px;
+    color: #00401A;
+    margin-bottom: 20px;
+}/* Adiciona estilos para a tela de editar perfil */
+.tela-editar-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-editar-perfil {
+    color: #28a745;
+    /* Cor verde */
+    margin-top: 20px;
+    /* Adiciona espaço entre o título e o perfil-container */
+}
+
+.perfil-container {
+    width: 70%;
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    /* Adiciona espaço entre o título e o perfil-container */
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.foto-perfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.informacoes-perfil {
+    width: 100%;
+    text-align: center;
+}
+
+.nome-perfil input,
+.descricao-perfil textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.botao-salvar button {
+    background-color:#00401A;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    
+}
+.titulo {
+    color: #00401A;
+    font-size: 20px;
+    /* Reduzir o tamanho da fonte */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
