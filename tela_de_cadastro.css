@@ -190,48 +190,81 @@ header > .interface{
 
 /* ESTILO DO NOVO CODIGO AQUI \/  */
 
-
-section.cadastrousuario{
-    padding: 140px 4%;
+body {
+    background-color: #f4f4f4; /* Adicione uma cor de fundo ao corpo */
 }
 
-.cadastrousuario p{
-    text-align: center;
-    font-size: 20px;
+section.cadastrousuario {
+    padding: 150px 4%;
+    margin-bottom: 20px; /* Adicione uma margem inferior para dar espaço abaixo do formulário */
 }
 
-section.cadastrousuario .retangulo{
+.cadastrousuario p {
+    background-color: #f4f4f4;
     padding: 20px;
+}
+
+section.cadastrousuario .retangulo {
+    display: flex;
+    padding: 30px;
     background-color: #ffffff;
     box-shadow: 5px 5px 10px #d5d5d5;
     border-radius: 20px;
-}
-
-
-
-
-.camposresultados .flex{
-    margin-left: 10px;
-}
-
-
-.retangulo {
-    width: 500px;
-    height: 300px;
+    justify-content: center;
+    margin: 0 auto;
     margin-top: 20px;
-    margin-left: 350px;
-  
-    
- 
+    position: relative; 
 }
 
-
-.retangulo .camposcadastro{
-     display: flex;
-    justify-content: center; /* Alinha itens horizontalmente no centro */
-    align-items: center;     /* Alinha itens verticalmente no centro */
-
+.imagem-lateral img{
+    border-top-left-radius: 20px; 
+    border-bottom-left-radius: 20px; 
+    width: 500px;
+    height: 550px;
 }
+
+h2.titulo2 {
+    color: #00401A;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2.titulo2 span {
+    color: #ff8c00;
+}
+
+.camposcadastro form {
+    display: flex;
+    flex-direction: column;
+}
+
+.camposcadastro label {
+    color: #333;
+    font-weight: bold;
+}
+
+.camposcadastro input {
+    width: 400px;
+    height: 30px;
+    margin-bottom: 1px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.camposcadastro input[type="submit"] {
+    background-color: #ff6600;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.camposcadastro input[type="submit"]:hover {
+    background-color: #cc5500;
+}
+
 
 /* --- ESTILO DO RODAPÉ --- */
 footer{

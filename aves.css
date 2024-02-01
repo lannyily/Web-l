@@ -21,7 +21,7 @@ body{
 /* todos os titulos */
 h2.titulo{
     color: #00401A;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -190,7 +190,7 @@ header > .interface{
 
 /* ESTILO DO NOVO CODIGO AQUI \/  */
 section.conteudo{
-    padding: 180px 4%;
+    padding: 150px 4%;
 }
 
 .conteudo {
@@ -216,24 +216,27 @@ section.conteudo{
 }
 
 /* Estilos específicos para a imagem da receita */
-.imagem-receita {
+.imagem-receita img{
     float: left;
-    margin-right: 20px;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 
 /* Limpar floats para evitar problemas de layout */
-.detalhes-texto::after {
-    content: "";
-    display: table;
-    clear: both;
+.detalhes-texto {
+    margin: 10px;
 }
 
 /* Estilos adicionais para melhorar a aparência */
 .nome-da-receita h1 {
     color: #333;
+    font-size: 20px;
 }
 
+p {
+    font-size: 14px;
+}
 
 /* --- ESTILO DO RODAPÉ --- */
 footer{

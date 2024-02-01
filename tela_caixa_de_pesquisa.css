@@ -218,6 +218,10 @@ section.resultado_da_pesquisa .retangulo2{
 
 }
 
+.receitaresultado{
+    border-radius: 10px;
+}
+
 .retangulo2{
     margin-left: 400px;
 }

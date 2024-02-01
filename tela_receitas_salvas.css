@@ -1,25 +1,43 @@
 section.receitas_salvas{
-    padding: 160px 4%; /* 160px é a altura da barra-1 */
-    text-align: left;/* Centraliza o texto */
-    font-size: 20px;
-    color: #00401A; /* Cor do texto */
-
+    padding: 160px 6%; 
+    text-align: left;
 }
 
-.receitas_salvas2{
-    text-align: center; /* Centraliza o texto */
-    font-size: 20px;   /* Tamanho da fonte */
+section.receitas_salvas h2{
+    font-size: 35px;
 }
 
-.nomereceita{
-    font-size: 30px; /* Tamanho da fonte */
-    color: #00401A; /* Cor do texto */
-    text-align: center;
 
+.interface{
+    margin-top: 10px;
 }
 
-.interface {
-    max-width: 1280px;
-    margin: 0;
+.receita{
+    text-align: center; 
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px #d5d5d5;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 1px;
+    margin-top: 20px;
 }
 
+.flex2{
+    display: flex;
+    text-align: center; 
+    margin-left: 32%;
+}
+
+.receita img{
+    border-radius: 10px;
+}
+
+.flex2 h5{
+    margin-left: 5px;
+}
+
+i {
+    color: red;
+}

@@ -14,7 +14,6 @@
     <!-- BOOTSTRAP ICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- FIM BOOTSTRAP ICONS -->
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="tela_editar_perfil.css">
 
     <title>Quero Receitas</title>
@@ -175,29 +174,35 @@
 
 
     <main>
-        <h2 class="titulo">Editar <span>Receita</span></h2><!--colocar o nome EDITAR RECEITA NA PARTE DE CIMA-->
-        <div class="interface">
-            <!-- Remova este elemento h2 -->
-            <!-- <h2 class="titulo">Editar <span>Receita</span></h2> -->
-        </div>
-        <div class="tela-editar-perfil">
-            <div class="perfil-container">
-                <div class="foto-perfil">
-                    <img src="images/foto-perfil.jpg" alt="foto-perfil">
-                </div>
-                <div class="informacoes-perfil">
-                    <div class="nome-perfil">
-                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+        <section class="editar-perfil">
+            
+            <div class="tela-editar-perfil">
+                <h2 class="titulo">Editar <span>Perfil</span>.</h2>
+                <div class="perfil-container">
+                    <div class="foto-perfil">
+                        <a href="#">
+                            <div class="icon">
+                                <i class="bi bi-image"></i>
+                            </div>
+                            <img src="images/fotoPerfil.png" alt="">
+                        </a>
                     </div>
-                    <div class="descricao-perfil">
-                        <textarea id="descricao" name="descricao" placeholder="Digite uma breve descrição"></textarea>
-                    </div>
-                    <div class="botao-salvar">
-                        <button>Salvar</button>
+                    <div class="informacoes-perfil">
+                        <div class="nome-perfil">
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                        </div>
+                        <div class="descricao-perfil">
+                            <textarea id="descricao" name="descricao" placeholder="Digite uma breve descrição"></textarea>
+                        </div>
+                        <div class="botao-salvar">
+                            <button>Salvar</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+            
+        </section>
+        
     </main>
 
 
