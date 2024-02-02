@@ -226,18 +226,6 @@ section.editar-perfil{
     margin-bottom: 20px;
 }
 
-.botao-salvar{
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    border: none;
-    background-color: #00401A;
-    color: #f8f8ff;
-    font-size: 20px;
-    margin-bottom: 20px;
-    margin: 0 auto;
-}
-
 .descricao-perfil{
     font-size: 20px;
     color: #000000;
@@ -316,15 +304,21 @@ section.editar-perfil{
     box-sizing: border-box;
 }
 
-.botao-salvar button {
-    margin-top: 5px;
-    background-color:#00401A;
+.botao-perfil button {
     color: #fff;
     padding: 10px;
     border: none;
     cursor: pointer;
-    
+    background-color: #45B450;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
 }
+
+.botao-perfil button:hover{
+    background-color: #149b22;
+}
+
 .titulo {
     color: #00401A;
     font-size: 20px;

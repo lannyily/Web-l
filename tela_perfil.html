@@ -11,7 +11,8 @@
     <!-- BOOTSTRAP ICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- FIM BOOTSTRAP ICONS -->
-    <link rel="stylesheet" href="tela_inicial.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tela_perfil.css">
     <title>Quero Receitas</title>
     <!-- Adicione o link para a biblioteca Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -33,7 +34,6 @@
             <div class="barra-pesquisa">
                 <form id="pesquisaForm" action="/resultados" method="get">
                     <div class="pesquisa-wrapper">
-                        <a href="tela_caixa_de_pesquisa.html">
                         <input type="text" name="q" placeholder="Pesquisar...">
                         <!-- Adicione um ícone de lupa da Font Awesome que atua como botão de pesquisa -->
                         <i class="fas fa-search" onclick="document.getElementById('pesquisaForm').submit()"></i>
@@ -57,10 +57,10 @@
             <div class="menu">
                 <h3>Aves</h3>
                 <ul class="submenu">
-                    <li><a href="frango.html">Frango</a></li>
-                    <li><a href="nugget.html">Nugget</a></li>
-                    <li><a href="yokisoba.html">Yakisoba</a></li>
-                    <li><a href="strogonoff.html">Strogonoff</a></li>
+                    <li><a href="#">Frango</a></li>
+                    <li><a href="#">Nugget</a></li>
+                    <li><a href="#">Yakisoba</a></li>
+                    <li><a href="#">Strogonoff</a></li>
                 </ul>
             </div>
             <div class="menu">
@@ -170,92 +170,74 @@
     </nav>
     
     <main>
-        <!-- DESTAQUES DA SEMANA -->
-        <section class="destaques-da-semana">
-            <div class="interface">
-                <h2 class="titulo">DESTAQUES DA <span>SEMANA</span></h2>
+        <section class="perfil">
+            <div class="card">
                 <div class="flex">
-                    <div class="destaques-box">
-                        <h3>COMIDAS TÍPICAS</h3>
-                        <img src="images/images.jpeg" alt="" width="300" height="230">
-                    </div> <!--fim destaques-box-->
-                    <div class="destaques-box">
-                        <h3>PRATOS FITNESS</h3>
-                        <img src="images/4-pratos-fitness-para-incluir-no-dia-a-dia-bh-mulher-1.jpg" alt=""width="300" height="230">
-                    </div> <!--fim destaques-box-->
-                    <div class="destaques-box">
-                        <h3>RECEITAS NA AIRFRYER</h3>
-                        <img src="images/pao-de-queijo.jpg" alt=""width="300" height="230">
-                    </div> <!--fim destaques-box-->
-                    <div class="destaques-box">
-                        <h3>BOLOS CASEIROS</h3>
-                        <img src="images/bolo-de-cenoura-vegano.jpg" alt=""width="300" height="230">
-                    </div> <!--fim destaques-box-->
-                </div><!--flex-->
-            </div> <!--interface-->
-        </section> <!-- fim dos destaques da semana -->
-        
-        <!-- MELHOR AVALIAÇÃO -->
-        <section class="melhor-avaliacao">
-            <h2 class="titulo">MELHOR <span>AVALIAÇÃO</span></h2>
-            <div class="interface">
-                <div class="flex">
-                    <div class="card">
-                        <div class="img-meio-site">
-                            <img src="images/bolo2.jpg" alt="bolo" width="350" height="200">
-                        </div>
-                        <div class="icon-perfil">
-                            <img src="images/download.jpeg" alt="" width="70" height="70">
-                        </div>
-                        <div class="texto-meio-site">
-                            <h2>BOLO DE CHOCOLATE</h2>
-                            <h4>por @jubolos</h4>
-                            <h3>Bolo fofinho, ótimo para lanches da tarde.</h3>
-                            <div class="flex-2">
-                                <i class="bi bi-heart-fill"></i> 
-                                 <h4>12903</h4>
+                    <div class="imagem">
+                        <img src="images/WhatsApp-Image-2022-02-18-at-08.52.06.jpeg" alt="" width="100" height="100">
+                    </div>
+                    <div class="dados">
+                        <h4>Manuela Antônia Almada</h4>
+                        <p>manuela_almada@splicenet.com.br</p>
+                        <div class="flex seguir">
+                            <div class="seguindo">
+                                <h5 class="dados-perfil"><span>379 </span>Seguindo</h5>
+                            </div>
+                            <div class="seguidores">
+                                <h5 class="dados-perfil"><span>102 </span>Seguidores</h5>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="card">
-                        <div class="img-meio-site">
-                            <img src="images/pizza.jpg" alt="bolo" width="350" height="200">
-                        </div>
-                        <div class="icon-perfil">
-                            <img src="images/3829840.jpg" alt="" width="70" height="70">
-                        </div>
-                        <div class="texto-meio-site">
-                            <h2>PIZZA DE LIQUIDIFICADOR</h2>
-                            <h4>por @crislyma</h4>
-                            <h3>Receita incrível para fazer com os amigos.</h3>
-                            <div class="flex-2">
-                                <i class="bi bi-heart-fill"></i> 
-                                 <h4>10703</h4>
-                            </div>
-                        </div>
+                    <div class="botao">
+                        <button><a href="#"><i class="bi bi-trash3-fill"></i>Excluir conta</a></button>
+                        <button><a href="tela_editar_perfil.html">Editar Perfil</a></button>
                     </div>
-                    
-                    <div class="card">
-                        <div class="img-meio-site">
-                            <img src="images/feijoada.jpg" alt="bolo" width="350" height="200">
-                        </div>
-                        <div class="icon-perfil">
-                            <img src="images/10363935.jpg" alt="" width="70" height="70">
-                        </div>
-                        <div class="texto-meio-site">
-                            <h2>FEIJOADA</h2>
-                            <h4>por @erikvi</h4>
-                            <h3>Receita para curti o domingão em família. </h3>
-                            <div class="flex-2">
-                                <i class="bi bi-heart-fill"></i> 
-                                <h4>10193</h4>
-                            </div>
-                        </div>
-                    </div> 
-                </div> <!--flex-->
-            </div> <!--interface-->
-        </section> <!-- fim melhor avaliação -->
+                </div>
+                <div class="descricao">
+                    <h5>‍🍳 Chef Gourmet | Explorador Culinário | Amante da Fusion Cuisine 🌍 | Criando momentos deliciosos, uma receita de cada vez. 🍽️✨</h5>
+                </div>
+                <div class="flex engajamento">
+                    <div class="receitas">
+                        <h5 class="dados-perfil">
+                            <span>40 </span>Receitas
+                        </h5>
+                    </div>
+                    <div class="curtidas">
+                        <h5 class="dados-perfil">
+                            <span>60k </span>Curtidas
+                        </h5>
+                    </div>
+                    <div class="salvas">
+                        <h5 class="dados-perfil">
+                            <span>143 </span>Receitas Salvas
+                        </h5>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="botoes">
+                        <input type="submit" value="Adicionar Receita">
+                        <a href="tela_receitas_salvas.html"><input type="submit" value="Receitas Salvas"></a>
+                    </div>
+                </div>
+                <div class="linha">
+
+                </div>
+                <div class="flex">
+                    <div class="feed">
+                        <img src="images/4-pratos-fitness-para-incluir-no-dia-a-dia-bh-mulher-1.jpg" alt="">
+                        <img src="images/bolo-de-cenoura-vegano.jpg" alt="">
+                        <img src="images/brigadeiromaracuja.jpg" alt="">
+                        <img src="images/creme-de-galinha.jpg" alt="">
+                        <img src="images/yokisoba-legumes.jpeg" alt="">
+                        <img src="images/estrogonofe-de-cogumelos.jpg" alt="">
+                        <img src="images/feijoada.jpg" alt="">
+                        <img src="images/frango-assado.jpg" alt="">
+                        <img src="images/estrogonofe-de-camarao.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+       
     </main>
     
     <!-- RODAPÉ -->

@@ -29,6 +29,17 @@ h2.titulo span{
     color: #ff8c00;
 }
 
+h2.titulo2 {
+    color: #00401A;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2.titulo2 span {
+    color: #ff8c00;
+}
+
+
 .flex{
     display: flex;
 }
@@ -68,11 +79,6 @@ header > .interface{
     cursor: pointer;
     margin: 0 5px;
     transition: .2s0;
-}
-
-.perfil i:hover {
-    color: #ff8c00; /* Cor ao passar o mouse */
-    border-color: #ff8c00; /* Cor da borda ao passar o mouse */
 }
 
 .barra-1 {

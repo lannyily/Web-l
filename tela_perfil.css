@@ -1,0 +1,125 @@
+section.perfil {
+    padding: 180px 10%;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 5px 5px 10px #d5d5d5;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.imagem img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.seguidores {
+    margin-left: 40px;
+}
+
+.botao i {
+    color: red;
+    margin-right: 5px;
+}
+
+.dados {
+    margin-left: 20px;
+    height: 150px;
+    width: 300000px;
+}
+
+.engajamento {
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.botoes input[type="submit"] {
+    margin-top: 5px;
+    width: 300px;
+    height: 50px;
+    background-color: #45B450;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.botoes input[type="submit"]:hover {
+    background-color: #149b22;
+}
+
+.botao {
+    margin-left: 45px;
+}
+
+.botao button {
+    margin-top: 5px;
+    width: 200px;
+    height: 40px;
+    background-color: #45B450;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.botao button:hover {
+    background-color: #149b22;
+}
+
+.botao button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.botoes {
+    margin-top: 40px;
+    margin: 0 auto;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 17px;
+}
+
+h5.dados-perfil span {
+    color: orange;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.feed {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.feed img {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.linha {
+    margin-top: 20px;
+    width: 100%;
+    height: 1px;
+    background-color: #0d3f12;
+}
+
+.feed {
+    transition: transform 0.2s ease;
+}
+
+.feed img:hover {
+    transform: scale(1.02);
+}

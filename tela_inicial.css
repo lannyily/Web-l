@@ -212,7 +212,7 @@ section.destaques-da-semana{
     top: 70.3%;
     left: 13.3%;
     width: 100%;
-    background: rgba(255, 255, 255, 0.7); /* Adiciona um fundo semi-transparente para tornar o texto mais legível */
+    background: rgba(255, 255, 255, 0.7); 
     padding: 10px;
     margin: 0;
     box-sizing: border-box;
@@ -221,7 +221,7 @@ section.destaques-da-semana{
 }
 
 .destaques-da-semana .interface .destaques-box:hover img {
-    transform: scale(1.05); /* Aplica um efeito de zoom na imagem ao passar o mouse sobre a .destaques-box */
+    transform: scale(1.05); 
     transition: transform 0.2s ease;
 }
 
