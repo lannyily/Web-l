@@ -396,11 +396,6 @@ main {
     padding: 20px;
 }
 
-section.receita {
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 10px;
-}
 
 section.receita h1 {
     font-size: 24px;
@@ -480,4 +475,9 @@ ol {
     width: 50%;
     object-fit: contain;
 }
+
+section .recipe-container{
+    padding: 180px 4%;
+}
+
 
