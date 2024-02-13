@@ -437,7 +437,7 @@ section {
 }
 
 h2 {
-    color: #008000;
+    color:#ff8c00;
 }
 
 ul,
@@ -454,15 +454,17 @@ ol {
 
 .recipe-header {
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
-
 .recipe-info {
-    width: 45%;
-    text-align: center;
+    margin-left: 20px;
+    /* Ajuste o espaçamento entre a imagem e as informações */
+}
+
+.recipe-info p {
+    margin: 5px 0;
+    /* Ajuste o espaçamento entre os parágrafos */
 }
 
 .ingredients,
