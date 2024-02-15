@@ -309,14 +309,14 @@ section.editar-perfil{
     padding: 10px;
     border: none;
     cursor: pointer;
-    background-color: #45B450;
+    background-color: #ff8c00;
     width: 200px;
     height: 40px;
     border-radius: 10px;
 }
 
 .botao-perfil button:hover{
-    background-color: #149b22;
+    background-color: #ffa500;
 }
 
 .titulo {
@@ -326,7 +326,13 @@ section.editar-perfil{
     margin-bottom: 20px;
 }
 
+.nome-perfil input{
+    border-radius: 10px;
+}
 
+.descricao-perfil textarea{
+    border-radius: 10px;
+}
 
 /* --- ESTILO DO RODAPÉ --- */
 footer{

@@ -185,13 +185,23 @@
                                 <input type="password" id="senha" name="senha"><br>
                                 <label for="confirma_senha">Confirme a Senha:</label><br>
                                 <input type="password" id="confirma_senha" name="confirma_senha"><br>
-                                <input type="submit" value="Confirmar">
+                                <input type="submit" value="Confirmar" onclick="abrirTela()">
+
+                                <script>
+                                    function abrirTela() {
+                                        window.location.href = 'tela_perfil.html';
+                                    }
+                                </script>
+            
+
                             </form>
                         </div>
                     </div>
                     <div class="imagem-lateral">
                         <img src="images/image-removebg-preview (7) 1.png" alt="">
                     </div>
+
+                    
                 </div>
             </div>
         </section>

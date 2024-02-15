@@ -172,10 +172,16 @@
     </nav>
 
     <main>
-        <section class="receita-container">
+        <section class="receita">
             <div class="recipe-container">
                 <div class="recipe-header">
-                    <img src="images/ft-laranja.jpg" alt="Imagem de Brigadeiros" class="recipe-details">
+                    <div class="image">
+                        <a href="#">
+                            <i class="bi bi-camera"></i>
+                            <a href="http://"><label for="">CAPA</label></a>
+                        </a>
+                    </div>
+
                     <div class="recipe-info">
                         <label for="nome">Nome:</label>
                         <input type="text" id="nome" name="nome">
@@ -189,9 +195,71 @@
                     <label for="ingredientes">Ingredientes:</label>
                     <textarea id="ingredientes" name="ingredientes"></textarea>
                 </div>
-                <div class="ingredients">
-                    <label for="utensilios">Utensílios:</label>
-                    <textarea id="utensilios" name="utensilios"></textarea>
+                <div class="utensilios">
+                    <label for="ingredientes">Utensílios:</label>
+                    <div class="flex">
+                        <p>
+                            <label for="">Panela</label>
+                            <select name="Panela" id="">
+                                <option value=""> </option>
+                                <optgroup>
+                                    <option value="">Panela Grande</option>
+                                    <option value="">Panela Média</option>
+                                    <option value="">Panela Pequena</option>
+                                    <option value="">Cuscuzeira</option>
+                                    <option value="">Panela de Pressão</option>
+                                    <option value="">Bule</option>
+                                    <option value="">Frigideira</option>
+                                    <option value="">Panela a Vapor</option>
+                                </optgroup>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="">Eletrodomésticos</label>
+                            <select name="Eletrodomésticos" id="">
+                                <option value=""> </option>
+                                <optgroup>
+                                    <option value="">Micro-ondas</option>
+                                    <option value="">Liquidificador</option>
+                                    <option value="">Processador de Alimentos</option>
+                                    <option value="">Batedeira</option>
+                                    <option value="">Air Fryer</option>
+                                </optgroup>
+                            </select>
+                        </p>
+
+                        <p>
+                            <label for="">Fôrma</label>
+                            <select name="Forma" id="">
+                                <option value=""> </option>
+                                <optgroup label="Assadeira Retangular">
+                                    <option value="">30x22</option>
+                                    <option value="">35x25</option>
+                                    <option value="">40x28</option>
+                                </optgroup>
+                                <optgroup label="Fôrma Redonda">
+                                    <option value="">22cm</option>
+                                    <option value="">26cm</option>
+                                    <option value="">30cm</option>
+                                </optgroup>
+                                <optgroup label="Fôrma com Buraco no Meio">
+                                    <option value="">20cm</option>
+                                    <option value="">22cm</option>
+                                    <option value="">24cm</option>
+                                </optgroup>
+                                <optgroup label="Fôrma de Fundo Removível">
+                                    <option value="">20cm</option>
+                                    <option value="">22cm</option>
+                                    <option value="">24cm</option>
+                                </optgroup>
+                                <optgroup label="Fôrma retangular">
+                                    <option value="">23x10x7</option>
+                                    <option value="">27x12x7</option>
+                                    <option value="">31x12x7</option>
+                                </optgroup>
+                            </select>
+                        </p>
+                    </div>
                 </div>
                 <div class="recipe-method">
                     <label for="modo">Modo de preparo:</label>

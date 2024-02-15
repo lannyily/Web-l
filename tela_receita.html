@@ -16,6 +16,7 @@
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="tela_receita.css">
 
     
@@ -175,32 +176,79 @@
     <main>
         <section class="receita">
             <div class="recipe-container">
-                <div class="recipe-header">
+                <div class="recipe-header flex">
                     <img src="images/brigadeiro-tela.jpg" alt="Imagem de Brigadeiros" class="recipe-details">
                     <div class="recipe-info">
                         <h1>Brigadeiro Para Festa</h1>
-                        <p>Tempo de Preparo: 25min</p>
-                        <p>Porções: 3 porções</p>
-                        <p>👍 400 Curtidas</p>
+                        <h5>Tempo de Preparo: 25min</h5>
+                        <h5>Porções: 3 porções</h5>
+                       
+                        <div class="botoes flex">
+                            <button onclick="Toggle1()" id="bt1"><i class="bi bi-heart-fill"></i></button>
+                            <h5 id="curtidasContador">400 curtidas</h5>
+                            <button onclick="Toggle2()" id="bt2"><i class="bi bi-floppy-fill"></i></button>
+                            <h5 id="salvosContador">25 salvos</h5>
+                        </div>
+                        
+                        <script>
+                            var curtidas = 400; // Inicializa o contador de curtidas
+                            var salvos = 25;   // Inicializa o contador de salvos
+                        
+                            function Toggle1() {
+                                var btvar1 = document.getElementById("bt1");
+                                var heartIcon = btvar1.querySelector(".bi-heart-fill");
+                                var curtidasContador = document.getElementById("curtidasContador");
+                        
+                                if (heartIcon.style.color == "red") {
+                                    heartIcon.style.color = "grey";
+                                    curtidas--;
+                                } else {
+                                    heartIcon.style.color = "red";
+                                    curtidas++;
+                                }
+                        
+                                curtidasContador.textContent = curtidas + " curtidas";
+                            }
+                        
+                            function Toggle2() {
+                                var btvar2 = document.getElementById("bt2");
+                                var heartIcon = btvar2.querySelector(".bi-floppy-fill");
+                                var salvosContador = document.getElementById("salvosContador");
+                        
+                                if (heartIcon.style.color == "green") {
+                                    heartIcon.style.color = "grey";
+                                    salvos--;
+                                } else {
+                                    heartIcon.style.color = "green";
+                                    salvos++;
+                                }
+                        
+                                salvosContador.textContent = salvos + " salvos";
+                            }
+                        </script>
+                        
+                        
                     </div>
                 </div>
                 <div class="ingredients">
-                    <h2>Ingredientes</h2>
+                    <h3>Ingredientes</h3>
                     <ul>
-                        <li>1 caixa de leite condensado</li>
-                        <li>1 colher (sopa) de margarina sem sal</li>
-                        <li>7 colheres (sopa) de achocolatado ou 4 colheres (sopa) de chocolate em pó</li>
-                        <li>chocolate granulado</li>
+                        <h5>1 caixa de leite condensado</h5>
+                        <h5>1 colher (sopa) de margarina sem sal</h5>
+                        <h5>7 colheres (sopa) de achocolatado ou 4 colheres (sopa) de chocolate em pó</h5>
+                        <h5>chocolate granulado</h5>
                     </ul>
-                    <h2>Utensílios</h2>
-                    <p>Panela média</p>
+                </div>
+                <div class="utem">
+                    <h3>Utensílios</h3>
+                    <h5>Panela média</h5>
                 </div>
                 <div class="recipe-method">
-                    <h2>Modo de preparo</h2>
+                    <h3>Modo de preparo</h3>
                     <ol>
-                        <li>Em uma panela funda, acrescente o leite condensado, a margarina e o chocolate em pó.</li>
-                        <li>Cozinhe em fogo médio e mexa até que o brigadeiro comece a desgrudar da panela.</li>
-                        <li>Deixe esfriar e faça pequenas bolas com a mão passando a massa no chocolate granulado.</li>
+                        <h5>Em uma panela funda, acrescente o leite condensado, a margarina e o chocolate em pó.</h5>
+                        <h5>Cozinhe em fogo médio e mexa até que o brigadeiro comece a desgrudar da panela.</h5>
+                        <h5>Deixe esfriar e faça pequenas bolas com a mão passando a massa no chocolate granulado.</h5>
                     </ol>
                 </div>
             </div>

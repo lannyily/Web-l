@@ -215,11 +215,17 @@
                 </div>
                 <div class="flex">
                     <div class="botoes">
-                        <input type="submit" value="Adicionar Receita">
+                        <input type="submit" value="Adicionar Receita" onclick="abrirTelareceita()">
                         <a href="tela_receitas_salvas.html"><input type="submit" value="Receitas Salvas"></a>
                     </div>
                 </div>
-                <div class="linha">
+
+                <script>
+                    function abrirTelareceita() {
+                        window.location.href = 'tela_adicionar_receita.html';
+                    }
+                </script>
+
 
                 </div>
                 <div class="flex">

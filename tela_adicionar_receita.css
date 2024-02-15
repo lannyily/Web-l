@@ -313,24 +313,14 @@ footer .line-footer {
 
 /* --- CSS ADICIONAIS --- */
 
-.recipe-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background-color: #f2f2f2;
-    /* Cor de fundo para destacar o conteúdo */
-    padding: 20px;
-    border-radius: 8px;
-    /* Borda arredondada */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* Sombra suave */
+.receita {
+    padding: 180px 15%;
 }
+
 
 .recipe-details {
     width: 100%;
     max-width: 300px;
-    /* Limitar a largura da imagem para não ocupar toda a largura da tela */
     height: auto;
     margin-bottom: 20px;
 }
@@ -360,39 +350,36 @@ textarea {
 }
 
 textarea {
-    height: 120px;
+    height: 180px;
     /* Ajustar altura do textarea */
 }
 
-button {
-    padding: 10px 20px;
-    background-color:#ff8c00;
+.recipe-container button {
+    padding: 15px 25px;
+    background-color: #ff8c00;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color:#ffa500;
-}
-
-section .recipe-container {
-    padding: 180px 4%;
+.recipe-container button:hover {
+    background-color: #ffa500;
 }
 
 .recipe-container {
+    padding: 4%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
 }
 
 .recipe-header {
     display: flex;
     align-items: flex-start;
-    /* Alinha os itens à esquerda */
-    width: 100%;
 }
 
 .recipe-details {
@@ -404,7 +391,7 @@ section .recipe-container {
 
 .recipe-info {
     width: 50%;
-    /* Ocupa metade da largura */
+    margin-left: 15px;
 }
 
 .recipe-info label {
@@ -417,30 +404,18 @@ section .recipe-container {
     margin-top: 20px;
 }
 
-label,
+.recipe-info input{
+    width: 146%;
+}
+
 input,
 textarea {
+    border-radius: 10px;
     display: block;
     margin-bottom: 10px;
+    border: 1px solid #000;
 }
 
-
-
-textarea {
-    height: 120px;
-    /* Ajusta a altura do textarea */
-}
-
-.receita-container {
-    background-color: #fff;
-    border-radius: 20px;
-    padding: 30px;
-}
-.recipe-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .recipe-header {
     display: flex;
@@ -449,27 +424,11 @@ textarea {
     width: 100%;
 }
 
-.recipe-details {
-    width: 50%;
-    object-fit: contain;
-    margin-right: 20px;
-    /* Adiciona espaço entre a imagem e o texto */
-}
-
-.recipe-info {
-    width: 50%;
-    /* Ocupa metade da largura */
-}
 
 .recipe-info label {
     font-weight: bold;
 }
 
-.ingredients,
-.recipe-method {
-    width: 100%;
-    margin-top: 20px;
-}
 
 label,
 input,
@@ -479,5 +438,47 @@ textarea {
 }
 
 label {
-    color:#ff8c00;
+    color: #00401A;
+}
+
+.recipe-header img{
+    border: 2px solid #000;
+}
+
+.image{
+    padding: 9%;
+    border: 3px solid #00401A;
+    border-radius: 15px;
+}
+
+.image i{
+    font-size: 50px;
+    color: #00401A;
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image label{
+    color: #00401A;
+    font-size: 20px;
+}
+
+.utensilios{
+    margin-right: 340px;
+}
+
+.utensilios select{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.utensilios select:hover{
+    border-radius: 10px;
+}
+
+.utensilios p{
+    margin: 20px;
 }

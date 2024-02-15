@@ -1,5 +1,5 @@
 /* --- ESTILO GERAL --- */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,58 +7,58 @@
 }
 
 /* Cor do background (fundo do site) */
-body{
+body {
     background-color: #f8f8ff;
     height: 100vh;
 }
 
 /* Definir os limites do site */
-.interface{
+.interface {
     max-width: 1280px;
     margin: 0;
 }
 
 /* todos os titulos */
-h2.titulo{
+h2.titulo {
     color: #00401A;
     font-size: 40px;
     text-align: center;
 }
 
-h2.titulo span{
+h2.titulo span {
     color: #ff8c00;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.flex-2{
+.flex-2 {
     display: flex;
 }
 
 /* --- ESTILO DA INTERFACE --- */
-header{
+header {
     padding: 40px 1%;
 }
 
-header > .interface{
+header>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 /* --- ESTILO DA BARRA 1 - CABEÇALHO --- */
-.perfil{
+.perfil {
     font-size: 40px;
     color: #00401A;
 }
 
-.perfil{
+.perfil {
     margin-right: 20px;
 }
 
-.perfil button{
+.perfil button {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -71,8 +71,10 @@ header > .interface{
 }
 
 .perfil i:hover {
-    color: #ff8c00; /* Cor ao passar o mouse */
-    border-color: #ff8c00; /* Cor da borda ao passar o mouse */
+    color: #ff8c00;
+    /* Cor ao passar o mouse */
+    border-color: #ff8c00;
+    /* Cor da borda ao passar o mouse */
 }
 
 .barra-1 {
@@ -85,7 +87,8 @@ header > .interface{
     justify-content: space-between;
     background: #ffa500;
     height: 15vh;
-    z-index: 1000; /* Certifique-se de que a barra-1 está acima de outros elementos */
+    z-index: 1000;
+    /* Certifique-se de que a barra-1 está acima de outros elementos */
 }
 
 
@@ -126,7 +129,7 @@ header > .interface{
     transform: translateY(-50%);
 }
 
-.barra-de-pesquisa-desktop{
+.barra-de-pesquisa-desktop {
     margin-left: 790px;
     margin-top: 12px;
 }
@@ -134,7 +137,8 @@ header > .interface{
 /* --- ESTILO DA BARRA 2 - CABEÇALHO --- */
 .barra-2 {
     position: fixed;
-    top: 15vh; /* Ajuste conforme necessário para alinhar abaixo da barra-1 */
+    top: 15vh;
+    /* Ajuste conforme necessário para alinhar abaixo da barra-1 */
     left: 0;
     width: 100%;
     background: #E9C172;
@@ -142,10 +146,11 @@ header > .interface{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    z-index: 999; /* Certifique-se de que a barra-2 está acima de outros elementos, mas abaixo da barra-1 */
+    z-index: 999;
+    /* Certifique-se de que a barra-2 está acima de outros elementos, mas abaixo da barra-1 */
 }
 
-.barra-2 a{
+.barra-2 a {
     text-decoration: none;
 }
 
@@ -155,7 +160,9 @@ header > .interface{
 
 .menu {
     margin-right: 30px;
-    margin-left: 30px;;/* Espaçamento entre os menus(largura) */
+    margin-left: 30px;
+    ;
+    /* Espaçamento entre os menus(largura) */
 }
 
 .menu h3 {
@@ -169,13 +176,16 @@ header > .interface{
     background-color: #fcebca;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     list-style: none;
-    margin-top: 0px; /* Espaço de cima do submenu */
-    padding: 5px 0; /* Espaço interno do submenu */
+    margin-top: 0px;
+    /* Espaço de cima do submenu */
+    padding: 5px 0;
+    /* Espaço interno do submenu */
     margin-left: 10px;
 }
 
 .submenu li {
-    padding: 8px 20px; /* Espaçamento dos itens do menu */
+    padding: 8px 20px;
+    /* Espaçamento dos itens do menu */
 }
 
 .submenu li a {
@@ -191,34 +201,34 @@ header > .interface{
 /* ESTILO DO NOVO CODIGO AQUI \/  */
 
 body {
-    background-color: #f4f4f4; /* Adicione uma cor de fundo ao corpo */
+    background-color: #f4f4f4;
+    /* Adicione uma cor de fundo ao corpo */
 }
 
 section.cadastrousuario {
     padding: 150px 4%;
-    margin-bottom: 20px; /* Adicione uma margem inferior para dar espaço abaixo do formulário */
+
 }
 
 .cadastrousuario p {
     background-color: #f4f4f4;
-    padding: 20px;
 }
 
 section.cadastrousuario .retangulo {
     display: flex;
-    padding: 30px;
+    padding: 20px;
     background-color: #ffffff;
-    box-shadow: 5px 5px 10px #d5d5d5;
+    box-shadow: 5px 5px 10px #d2c3c3;
     border-radius: 20px;
     justify-content: center;
     margin: 0 auto;
     margin-top: 20px;
-    position: relative; 
+    position: relative;
 }
 
-.imagem-lateral img{
-    border-top-left-radius: 20px; 
-    border-bottom-left-radius: 20px; 
+.imagem-lateral img {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     width: 500px;
     height: 550px;
 }
@@ -246,7 +256,6 @@ h2.titulo2 span {
 .camposcadastro input {
     width: 400px;
     height: 30px;
-    margin-bottom: 1px;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
@@ -267,7 +276,7 @@ h2.titulo2 span {
 
 
 /* --- ESTILO DO RODAPÉ --- */
-footer{
+footer {
     padding: 20px 3%;
     background: #00401A;
     box-shadow: 0 0 40px 2px #01020a;
@@ -277,28 +286,31 @@ footer{
 
 footer.flex {
     justify-content: space-between;
-    gap: 200px; /* Adiciona um espaço de 200 pixels entre os itens */
+    gap: 200px;
+    /* Adiciona um espaço de 200 pixels entre os itens */
 }
 
 
-footer .line-footer{
+footer .line-footer {
     color: #ccc;
 }
 
-.line-footer{
+.line-footer {
     padding: 20px 0;
 }
 
-.borda{
+.borda {
     border-top: 2px solid #ffffff;
 }
 
 .redes-sociais {
     display: flex;
-    align-items: center; /* Alinha os ícones verticalmente no centro */
+    align-items: center;
+    /* Alinha os ícones verticalmente no centro */
     margin-left: 800px;
 }
-.redes-sociais button{
+
+.redes-sociais button {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -316,28 +328,31 @@ footer .line-footer{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin-top: 20px; /* Ajuste conforme necessário para o espaçamento desejado */
+    margin-top: 20px;
+    /* Ajuste conforme necessário para o espaçamento desejado */
 }
 
 .links-footer a {
     text-decoration: none;
-    color: #ccc; /* Adapte a cor conforme necessário */
+    color: #ccc;
+    /* Adapte a cor conforme necessário */
     font-size: 14px;
     transition: color 0.3s ease;
 }
 
 .links-footer a:hover {
-    color: #fff; /* Cor ao passar o mouse, ajuste conforme necessário */
+    color: #fff;
+    /* Cor ao passar o mouse, ajuste conforme necessário */
 }
 
-.links-footer p{
+.links-footer p {
     color: #f8f8ff;
     margin-left: 280px;
 }
 
 /* ---- RESPONSIVO --- */
-@media screen and (max-width: 1020px){
-    .barra-de-pesquisa-desktop{
+@media screen and (max-width: 1020px) {
+    .barra-de-pesquisa-desktop {
         display: none;
     }
 }
