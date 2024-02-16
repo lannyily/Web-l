@@ -327,7 +327,7 @@ footer .line-footer {
 
 .recipe-info,
 .ingredients,
-.recipe-method {
+.recipe-method, .ingredients{
     width: 100%;
     margin-bottom: 20px;
 }
@@ -399,7 +399,7 @@ textarea {
 }
 
 .ingredients,
-.recipe-method {
+.recipe-method, .utensilios {
     width: 100%;
     margin-top: 20px;
 }
@@ -466,19 +466,4 @@ a {
     font-size: 20px;
 }
 
-.utensilios{
-    margin-right: 340px;
-}
 
-.utensilios select{
-    border-radius: 10px;
-    padding: 5px;
-}
-
-.utensilios select:hover{
-    border-radius: 10px;
-}
-
-.utensilios p{
-    margin: 20px;
-}
