@@ -19,8 +19,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="tela_receita.css">
 
-    
-    
+
+
 </head>
 
 <body>
@@ -38,6 +38,7 @@
             <div class="barra-pesquisa">
                 <form id="pesquisaForm" action="/resultados" method="get">
                     <div class="pesquisa-wrapper">
+                        <a href="tela_caixa_de_pesquisa.html">
                         <input type="text" name="q" placeholder="Pesquisar...">
                         <!-- Adicione um ícone de lupa da Font Awesome que atua como botão de pesquisa -->
                         <i class="fas fa-search" onclick="document.getElementById('pesquisaForm').submit()"></i>
@@ -48,8 +49,8 @@
 
         <!--PERFIL-->
         <div class="perfil">
-            <a href="#"> <!--Quando clicar no perfil, ele vai para tela perfil-->
-                <button><i class="bi bi-person"></i></button>
+            <a href="tela_login.html"> <!--Quando clicar no perfil, ele vai para tela perfil-->
+                <a href="tela_login.html"><button><i class="bi bi-person"></i></i></button></a>
             </a>
         </div> <!--fim do perfil-->
     </nav> <!--fim da barra-1-->
@@ -61,10 +62,10 @@
             <div class="menu">
                 <h3>Aves</h3>
                 <ul class="submenu">
-                    <li><a href="#">Frango</a></li>
-                    <li><a href="#">Nugget</a></li>
-                    <li><a href="#">Yakisoba</a></li>
-                    <li><a href="#">Strogonoff</a></li>
+                    <li><a href="frango.html">Frango</a></li>
+                    <li><a href="">Nugget</a></li>
+                    <li><a href="yokisoba.html">Yakisoba</a></li>
+                    <li><a href="strogonoff.html">Strogonoff</a></li>
                 </ul>
             </div>
             <div class="menu">
@@ -130,7 +131,7 @@
                     <li><a href="#">Molho de Alho</a></li>
                 </ul>
             </div>
-    
+
             <div class="menu">
                 <h3>Peixes</h3>
                 <ul class="submenu">
@@ -138,7 +139,7 @@
                     <li><a href="#">Peixe ao Molho</a></li>
                     <li><a href="#">Peixe Assado</a></li>
                     <li><a href="#">Peixe Cremoso</a></li>
-    
+
                 </ul>
             </div>
             <div class="menu">
@@ -166,10 +167,10 @@
                     <li><a href="#">Bisnaguinhas</a></li>
                     <li><a href="#">Brioche</a></li>
                     <li><a href="#">Pão de Milho</a></li>
-    
+
                 </ul>
             </div>
-    
+
         </div>
     </nav>
 
@@ -179,26 +180,26 @@
                 <div class="recipe-header flex">
                     <img src="images/brigadeiro-tela.jpg" alt="Imagem de Brigadeiros" class="recipe-details">
                     <div class="recipe-info">
-                        <h1>Brigadeiro Para Festa</h1>
+                        <h1>Brigadeiro para Festa</h1>
                         <h5>Tempo de Preparo: 25min</h5>
                         <h5>Porções: 3 porções</h5>
-                       
+
                         <div class="botoes flex">
                             <button onclick="Toggle1()" id="bt1"><i class="bi bi-heart-fill"></i></button>
                             <h5 id="curtidasContador">400 curtidas</h5>
-                            <button onclick="Toggle2()" id="bt2"><i class="bi bi-floppy-fill"></i></button>
+                            <button onclick="Toggle2()" id="bt2"><i class="bi bi-bookmark-fill"></i></button>
                             <h5 id="salvosContador">25 salvos</h5>
                         </div>
-                        
+
                         <script>
-                            var curtidas = 400; // Inicializa o contador de curtidas
-                            var salvos = 25;   // Inicializa o contador de salvos
-                        
+                            var curtidas = 400;
+                            var salvos = 25;
+
                             function Toggle1() {
                                 var btvar1 = document.getElementById("bt1");
                                 var heartIcon = btvar1.querySelector(".bi-heart-fill");
                                 var curtidasContador = document.getElementById("curtidasContador");
-                        
+
                                 if (heartIcon.style.color == "red") {
                                     heartIcon.style.color = "grey";
                                     curtidas--;
@@ -206,15 +207,15 @@
                                     heartIcon.style.color = "red";
                                     curtidas++;
                                 }
-                        
+
                                 curtidasContador.textContent = curtidas + " curtidas";
                             }
-                        
+
                             function Toggle2() {
                                 var btvar2 = document.getElementById("bt2");
-                                var heartIcon = btvar2.querySelector(".bi-floppy-fill");
+                                var heartIcon = btvar2.querySelector(".bi-bookmark-fill");
                                 var salvosContador = document.getElementById("salvosContador");
-                        
+
                                 if (heartIcon.style.color == "green") {
                                     heartIcon.style.color = "grey";
                                     salvos--;
@@ -222,12 +223,12 @@
                                     heartIcon.style.color = "green";
                                     salvos++;
                                 }
-                        
+
                                 salvosContador.textContent = salvos + " salvos";
                             }
                         </script>
-                        
-                        
+
+
                     </div>
                 </div>
                 <div class="ingredients">
@@ -241,7 +242,7 @@
                 </div>
                 <div class="utem">
                     <h3>Utensílios</h3>
-                    <h5>Panela média</h5>
+                    <h5>Panela Média</h5>
                 </div>
                 <div class="recipe-method">
                     <h3>Modo de preparo</h3>
@@ -260,7 +261,7 @@
 
 
 
-    
+
 
     <!-- RODAPÉ -->
     <footer>
